@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdbool.h>
+#include <math.h>
+
+int pred(int a){return a-1;}
+int succ(int a){return a+1;}
+int ord(int a){return a;}
+char chr(int a){return a;}
+int odd(int a){return a%2;}
+
+// Program is called "exArrays"
+
+int y, x;
+int main()
+{
+	x=2;
+	y=5;
+	printf("%d", y%x);
+	printf("\n");
+printf("%d", y/x);
+	printf("\n");
+printf("%lf", y/(double)x);
+	printf("\n");
+printf("%d", y*x);
+	printf("\n");
+}

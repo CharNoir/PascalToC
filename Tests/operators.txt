@@ -1,0 +1,12 @@
+program exArrays;
+var
+x, y : integer;
+
+begin       
+    x := 2;
+    y := 5;
+    writeln( y mod x );
+    writeln( y div x );
+    writeln( y / x );
+    writeln( y * x );
+end.

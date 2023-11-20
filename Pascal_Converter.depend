@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1638745031 source:c:\users\dobbi\documents\pascal_converter\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+

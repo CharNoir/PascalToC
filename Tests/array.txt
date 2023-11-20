@@ -1,0 +1,12 @@
+program exArrays;
+var
+   n: array [1..10] of integer;   (* n is an array of 10 integers *)
+   i, j: integer;
+
+begin       
+   for i := 1 to 10 do
+	begin
+	n[ i ] := i + 1; 
+	writeln( n[ i ] );
+	end;
+end.

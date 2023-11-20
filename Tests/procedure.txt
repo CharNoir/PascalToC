@@ -1,0 +1,19 @@
+program exArrays;
+var
+x, y : integer;
+procedure printVector(x, y : integer );
+
+begin
+   write( '{' );
+   write( x );
+   write(' ');
+   write( y);
+   writeln('}');
+end;
+
+
+begin       
+    x := 1;
+    y := 2;
+    printVector(x, y);
+end.
